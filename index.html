@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+      <div class="container">
+        <h1><span>Quiz</span> Culture générale.✔️</h1>
+        <div class="question">
+          <h2>Quel mouvement caractérise le "roque" au jeu d'échecs?</h2>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" name="q1-options" value="a" />
+                Déplacer le roi deux cases vers la droite.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q1-options" value="b" />
+                Déplacer le roi deux cases vers la gauche.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q1-options" value="c" />
+                Déplacer le roi deux cases vers l'avant.
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <h2>Quel est le nom du mouvement où un pion se déplace deux cases vers
+            l'avant depuis sa position initiale?</h2>
+          
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" name="q2-options" value="a" />
+                Avance rapide.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q2-options" value="b" />
+                Déplacement en avant.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q2-options" value="c" />
+                Avance initiale.
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="question">
+          <h2>Quelle pièce peut se déplacer en "L" sur l'échiquier?</h2>
+          <ul>
+            <li>
+              <label>
+                <input type="checkbox" name="q3-options" value="a" /> La
+                tour.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q3-options" value="b" /> Le
+                fou.
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" name="q3-options" value="c" /> Le
+                cavalier.
+              </label>
+            </li>
+          </ul>
+        </div>
+
+        <div class="validation">
+          <button>VALIDER✔️</button>
+          <h3>Cliquez sur <span>valider</span> pour voir les <span>résultats.</span></h3>
+        </div>
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
