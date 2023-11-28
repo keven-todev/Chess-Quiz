@@ -80,6 +80,15 @@ form{
   text-align: center;
   background: green;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 10 0px;
 
 }
+
+#mark, #help{
+  display: none;
+  background-color: green;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px;
+}
+
